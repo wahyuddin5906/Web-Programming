@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f0f2f5;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Memakai Table untuk tata letak form */
+.halaman-login-registrasi {
+    width: 100%;
+    max-width: 450px;
+    margin: 20px;
+}
+
+table {
+    width: 100%;
+    background: white;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #1a73e8;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.kotak-login {
+    margin-bottom: 15px;
+}
+
+.kotak-login td {
+    padding: 5px 0;
+}
+
+.kotak-login label {
+    font-weight: bold;
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.kotak-login input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.kotak-login input:focus {
+    outline: none;
+    border-color: #1a73e8;
+}
+
+.btn {
+    background-color: #1a73e8;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.btn:hover {
+    background-color: #1557b0;
+}
+
+.link-login-registrasi {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.link-login-registrasi a {
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+.link-login-registrasi :hover {
+    text-decoration: underline;
+}
+
+.petunjuk-halaman {
+    text-align: center;
+    padding-top: 20px;
+    color: #666;
+    font-size: 14px;
+}
